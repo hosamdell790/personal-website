@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 11rem;
+}
+body,
+[type="submit"] {
+  font-size: 1.6rem;
+  font-family: var(--font-family-raleway);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border: 0;
+}
+
+.container {
+  display: grid;
+  row-gap: 11rem;
+  margin: 0 auto;
+  max-width: calc(var(--container-width) + calc (var(--gutter) * 2));
+  padding-inline: var(--gutter);
+}
